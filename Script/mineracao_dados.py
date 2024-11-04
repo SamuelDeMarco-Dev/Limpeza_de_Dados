@@ -1,7 +1,7 @@
 import pandas as pd #importando Biblioteca pandas
 import numpy as np #importando biblioteca numpy
 
-file_path = 'C:/Users/Chimba04/Documents/Mineração de Dados/limpeza_de_dados/Dados/base_logistica.csv' #importando arquivo .csv da base de dados que será tratada
+file_path = './Mineração de Dados/limpeza_de_dados/Dados/base_logistica.csv' #importando arquivo .csv da base de dados que será tratada
 lendo_logistica = pd.read_csv(file_path) #lendo arquivo utilizando a Biblioteca pandas
 print(lendo_logistica.head(20)) #printando os 20 valores iniciais da base
 
